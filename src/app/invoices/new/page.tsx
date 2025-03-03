@@ -1,9 +1,15 @@
+import {sql} from 'drizzle-orm'
+import {db} from '@/db'
 import {Input} from "@/components/ui/input"
 import {Label} from "@/components/ui/label"
 import {Textarea} from "@/components/ui/textarea"
 import {Button} from "@/components/ui/button"
 
-export default function Home() {
+export default async function Home() {
+
+    const results = await db.execute(sql`SELECT current_database()`)
+
+
     return (
         <main className="h-96 flex flex-col justify-center gap-6 max-w-5xl mx-auto my-12">
 
@@ -12,6 +18,8 @@ export default function Home() {
                     Create a New Invoice
                 </h1>
             </div>
+
+            { JSON.stringify(results)}
 
             <form className="grid gap-4 max-w-xs">
                 <div>

@@ -11,10 +11,16 @@ export default function Home() {
                         <a href="https://www.youtube.com/watch?v=Mcw8Mp8PYUE&list=WL&index=2">https://www.youtube.com/watch?v=Mcw8Mp8PYUE&list=WL&index=2</a>
                     </li>
                     <li>
-                        <a href="https://ui.shadcn.com/">https://ui.shadcn.com/</a>
+                        <a href="https://ui.shadcn.com">https://ui.shadcn.com</a>
                     </li>
                     <li>
-                        <a href="https://lucide.dev/icons/">https://lucide.dev/icons/</a>
+                        <a href="https://lucide.dev/icons">https://lucide.dev/icons</a>
+                    </li>
+                    <li>
+                        <a href="https://xata.io">https://xata.io</a>
+                    </li>
+                    <li>
+                        <a href="https://orm.drizzle.team">https://orm.drizzle.team</a>
                     </li>
                 </ul>
             </div>
